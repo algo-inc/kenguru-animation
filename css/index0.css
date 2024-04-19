@@ -1,0 +1,685 @@
+
+
+.container {
+    width: 100%;
+}
+
+.main-s {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(187deg, rgba(14, 113, 164, 1) 0%, rgba(156, 238, 248, 1) 35%, rgba(193, 239, 255, 1) 100%);
+}
+
+.left-lend-down {
+
+}
+
+.a-link {
+    position: absolute;
+    display: block !important;
+    height: 100vh;
+    width: 101%;
+    z-index: 20;
+}
+
+.a-link .a-link-l {
+}
+
+.a-link .a-link-r {
+    padding-right: 0 !important;
+    right: 0;
+}
+
+.transition-a-link-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s linear;
+    cursor: pointer;
+    transform: translateX(-80%);
+}
+@media (max-width: 768px){
+    .transition-a-link-l{
+        transform: translateX(-90%);
+    }
+
+}
+
+
+.transition-a-link-l:hover {
+    background: url(../imgg/shtor-l.png) no-repeat;
+    background-position: right;
+    background-size: cover;
+    transform: translateX(-30%);
+}
+@media (max-width: 1180px) {
+    .transition-a-link-l:hover {
+        background:rgb(26, 29, 32, 0.9);
+        background-position: right;
+        background-size: cover;
+        transform: translateX(-25%);
+    }
+}
+@media (max-width: 768px) {
+    .transition-a-link-l:hover {
+        background:rgb(26, 29, 32, 0.9);
+        background-position: right;
+        background-size: cover;
+        transform: translateX(-0%);
+    }
+}
+
+
+
+
+.transition-a-link-l .content-container{
+    width: 100%;
+    max-width: 35%;
+    margin-right: 22%;
+    margin-top: 10%;
+}
+
+@media (max-width: 1920px) {
+    .transition-a-link-l .content-container{
+        width: 100%;
+        max-width: 38%;
+        margin-right: 25%;
+        margin-top: 10%;
+    }
+}
+@media (max-width: 1181px) {
+    .transition-a-link-l .content-container{
+        width: 100%;
+        max-width: 56%;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .transition-a-link-l .content-container{
+        width: 100%;
+        max-width: 90%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+.transition-a-link-l .content-container h2{
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1650px) {
+    .transition-a-link-l .content-container h2{
+        font-size: 42px;
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+
+.transition-a-link-l .content-container p{
+    font-size: 24px;
+    color: yellow;
+    line-height: normal;
+    margin-bottom: 140px;
+}
+
+@media (max-width: 1920px) {
+    .transition-a-link-l .content-container p{
+        font-size: 22px;
+        color: yellow;
+        line-height: normal;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 1650px) {
+    .transition-a-link-l .content-container p{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+
+.transition-a-link-l .charts{
+    display: flex;
+    gap: 10px;
+}
+
+.transition-a-link-l .charts .chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.transition-a-link-l .chart-container h3{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+@media (max-width: 1650px) {
+    .transition-a-link-l .chart-container h3{
+        font-size: 24px;
+    }
+}
+
+.transition-a-link-l .chart-container p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+@media (max-width: 1650px) {
+    .transition-a-link-l .chart-container p{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        line-height: normal;
+    }
+}
+
+
+.transition-a-link-r {
+    position: absolute;
+    display: block;
+    height: 100vh;
+    max-width: 20% !important;
+    right: 0;
+    transition: 1.5s linear;
+    cursor: pointer;
+}
+
+.transition-a-link-r:hover {
+    max-width: 40% !important;
+    background: rgb(15 114 2 / 55%);
+}
+
+.ement-1 {
+    position: absolute;
+    width: 100%;
+    bottom: 47%;
+    z-index: 5;
+}
+
+.ement-2 {
+    position: absolute;
+    width: 20%;
+    top: 0%;
+    left: -5%;
+    z-index: 5;
+}
+
+.ement-3 {
+    position: absolute;
+    width: 20%;
+    top: -5%;
+    left: 10%;
+    z-index: 5;
+}
+
+.ement-4 {
+    position: absolute;
+    width: 15%;
+    top: 2%;
+    right: -2%;
+    z-index: 5;
+}
+
+.ement-7 {
+    position: absolute;
+    width: 50%;
+    bottom: 26%;
+    z-index: 5;
+    transition: all 300ms linear;
+}
+@media (max-width: 1920px) {
+    .ement-7{
+        bottom: 18%;
+    }
+}
+@media (max-width: 1650px) {
+    .ement-7{
+        bottom: 15%;
+    }
+}
+@media (max-width: 1440px) {
+    .ement-7{
+        bottom: 13%;
+    }
+}
+@media (max-width: 768px) {
+    .ement-7{
+        bottom: 6%;
+    }
+}
+
+
+
+
+.ement-6 {
+    position: absolute;
+    width: 45%;
+    bottom: 36%;
+    z-index: 9;
+}
+@media (max-width: 1920px) {
+    .ement-6{
+        bottom: 26%;
+    }
+}
+
+@media (max-width: 1650px) {
+    .ement-6{
+        bottom: 23%;
+    }
+}
+@media (max-width: 1440px) {
+    .ement-6{
+        bottom: 18%;
+    }
+}
+@media (max-width: 768px) {
+    .ement-6{
+        bottom: 7%;
+    }
+}
+
+.ement-5 {
+    position: absolute;
+    width: 45%;
+    bottom: 48%;
+    z-index: 5;
+    left: -2%;
+}
+@media (max-width: 1920px) {
+    .ement-5{
+        bottom: 34%;
+    }
+}
+@media (max-width: 1650px) {
+    .ement-5{
+        bottom: 28%;
+    }
+}
+@media (max-width: 1440px) {
+    .ement-5{
+        bottom: 23%;
+    }
+}
+@media (max-width: 768px) {
+    .ement-5{
+        bottom: 11%;
+    }
+}
+
+.ement-8 {
+    position: absolute;
+    width: 39%;
+    bottom: 0;
+    z-index: 11;
+}
+
+.ement-10 {
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+    left: 38%;
+    z-index: 11;
+}
+
+.ement-9 {
+    position: absolute;
+    width: 30%;
+    bottom: 8%;
+    left: 40%;
+    z-index: 11;
+}
+@media (max-width: 768px){
+    .ement-9 {
+        bottom: 20px;
+    }
+}
+
+.ement-11 {
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+    z-index: 10;
+}
+
+.ement-12 {
+    position: absolute;
+    width: 8%;
+    bottom: 10%;
+    left: 26%;
+    z-index: 18;
+}
+@media (max-width: 1650px){
+    .ement-12 {
+        bottom: 7%;
+        left: 30%;
+    }
+}
+@media (max-width: 1180px){
+    .ement-12 {
+        bottom: 8%;
+        left: 26%;
+    }
+}
+
+.ement-13 {
+    position: absolute;
+    width: 11%;
+    left: 32%;
+    bottom: 10%;
+    z-index: 15;
+}
+
+.ement-14 {
+    position: absolute;
+    right: 0;
+    width: 43%;
+    bottom: 48%;
+    z-index: 9;
+}
+@media (max-width: 1920px) {
+    .ement-14{
+        bottom: 40%;
+    }
+}
+@media (max-width: 1650px) {
+    .ement-14{
+        bottom: 28%;
+    }
+}
+@media (max-width: 1366px) {
+    .ement-14{
+        bottom: 25.5%;
+    }
+}
+@media (max-width: 1180px) {
+    .ement-14{
+        bottom: 31.5%;
+        width: 40%;
+    }
+}
+@media (max-width: 768px) {
+    .ement-14{
+        bottom: 14%;
+    }
+}
+
+.ement-15 {
+    position: absolute;
+    right: 0;
+    width: 49%;
+    bottom: 20%;
+    z-index: 9;
+    transform: rotateX(48deg);
+    -webkit-transform: rotateX(48deg); /* Для старих версій браузерів */
+    -moz-transform: rotateX(48deg); /* Для старих версій браузерів */
+    -ms-transform: rotateX(48deg);
+}
+@media (max-width: 1650px) {
+    .ement-15{
+        bottom: 14%;
+    }
+}
+
+@media (max-width: 1650px) {
+    .ement-15{
+        bottom: 12%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ement-15{
+        bottom: 7%;
+    }
+}
+
+.ement-16 {
+    position: absolute;
+    right: 0;
+    width: 55%;
+    bottom: 0;
+    z-index: 9;
+}
+
+.ement-17 {
+    position: absolute;
+    width: 40%;
+    bottom: 0;
+    right: 0;
+    z-index: 11;
+}
+
+.cloud4 {
+    width: 311px;
+    height: 59px;
+    background: url(../imgg/nebo-5.png) no-repeat;
+    position: absolute;
+    top: 6%;
+    left: 0;
+    animation: clouds 24s linear infinite;
+    transform: translateX(500%);
+    opacity: 1;
+    z-index: 4;
+}
+
+.cloud5 {
+    width: 261px;
+    height: 86px;
+    background: url(../imgg/nebo-6.png) no-repeat;
+    position: absolute;
+    top: 12%;
+    left: 0;
+    animation: clouds 22s linear infinite;
+    transform: translateX(1100%);
+    opacity: 1;
+    z-index: 4;
+}
+
+.cloud6 {
+    width: 282px;
+    height: 79px;
+    background: url(../imgg/nebo-7.png) no-repeat;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    animation: clouds 20s linear infinite;
+    transform: translateX(500%);
+    opacity: 1;
+    z-index: 4;
+}
+
+.cloud7 {
+    width: 292px;
+    height: 73px;
+    background: url(../imgg/nebo-8.png) no-repeat;
+    position: absolute;
+    top: 24%;
+    left: 0;
+    animation: clouds 18s linear infinite;
+    transform: translateX(500%);
+    opacity: 1;
+    z-index: 4;
+}
+
+.cloud8 {
+    width: 327px;
+    height: 35px;
+    background: url(../imgg/nebo-9.png) no-repeat;
+    position: absolute;
+    top: 16%;
+    left: 0;
+    animation: clouds 16s linear infinite;
+    transform: translateX(500%);
+    opacity: 1;
+    z-index: 4;
+}
+
+.cloud9 {
+    width: 355px;
+    height: 87px;
+    background: url(../imgg/nebo-10.png) no-repeat;
+    position: absolute;
+    top: 8%;
+    left: 0;
+    animation: clouds 14s linear infinite;
+    transform: translateX(500%);
+    opacity: 1;
+    z-index: 4;
+}
+
+@keyframes clouds {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.blink {
+    width: 500px;
+    height: 500px;
+    background: url(../imgg/solnc.png) no-repeat;
+    position: absolute;
+    top: -20%;
+    left: 40%;
+    animation-name: blinker;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1.0, 2.0, 0, 1.0);
+    animation-duration: 30s;
+    -webkit-animation-name: blinker;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: cubic-bezier(1.0, 2.0, 0, 1.0);
+    -webkit-animation-duration: 1s;
+}
+
+@keyframes blinker {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 0.5;
+    }
+}
+
+@-webkit-keyframes blinker {
+    from {
+        opacity: 1.0;
+    }
+    to {
+        opacity: 0.0;
+    }
+}
+
+.voda {
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+}
+
+.voda .ivoda {
+    width: 800px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    height: 450px;
+    position: absolute;
+
+}
+@media (max-width: 1350px) {
+    .voda .ivoda{
+        width: 500px;
+    }
+
+}
+@media (max-width: 1367px) {
+    .voda {
+        height: 340px;
+    }
+}
+@media (max-width: 1180px) {
+    .voda {
+        height: 266px;
+    }
+}
+@media (max-width: 768px) {
+    .voda {
+        height: 130px;
+    }
+    .voda .ivoda{
+        width: 234px;
+        height: auto;
+    }
+}
+
+
+.voda .ivoda {
+    opacity: 0;
+    -webkit-animation: wipe 6s forwards;
+    -webkit-animation-delay: 2.5s;
+    -webkit-animation-direction: up;
+    -webkit-mask-size: 450px 3000px;
+    -webkit-mask-position: 450px 450px;
+    -webkit-mask-image: -webkit-gradient(linear, left bottom, left top,
+    color-stop(0.00, rgba(0, 0, 0, 1)),
+    color-stop(0.25, rgba(0, 0, 0, 1)),
+    color-stop(0.27, rgba(0, 0, 0, 0)),
+    color-stop(0.80, rgba(0, 0, 0, 0)),
+    color-stop(1.00, rgba(0, 0, 0, 0)));
+}
+
+@-webkit-keyframes wipe {
+    0% {
+        opacity: 1;
+        -webkit-mask-position: 0 0;
+    }
+    100% {
+        opacity: 1;
+        -webkit-mask-position: 450px 450px;
+    }
+}
+
+.kenguru {
+    width: 190px ;
+    height: 200px;
+    left: 10%;
+    bottom: 3%;
+    position: absolute;
+    z-index: 16;
+    animation-name: jump;
+    animation-duration: 0.5s;
+    /*animation-timing-function: cubic-bezier(.25, .64, .8, .78);*/
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+@media (max-width: 768px) {
+    .kenguru{
+        width: 50px;
+        height: auto;
+        bottom: 0px;
+    }
+}
+
+@keyframes jump {
+    0% {
+        bottom: 3%;
+    }
+    100% {
+        bottom: 10%;
+    }
+}
+
+
+

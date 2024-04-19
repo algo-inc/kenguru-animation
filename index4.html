@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1">
+    <title>Мій перший сайт</title>
+    <link href="./css/index0.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link href="./css/bootstrap.css" type="text/css" rel="stylesheet" media="screen"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animate.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<!--<div class="preloader">
+  <svg class="preloader__image" role="img" id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 511.42 510.26">
+    <defs>
+      <style>
+        .cls-1 {
+          fill: #c22746;
+          fill-rule: evenodd;
+        }
+      </style>
+    </defs>
+    <path class="cls-1" d="M209,50.48a14,14,0,0,1,1-5.39c4.16-10.26,11.72-13.45,19.73-16.82,8.6-3.62,17.49-7.36,24.36-20.16,2.43-4.53,6.2-6.54,10.92-5.83C279.53,4.49,299.16,31.92,301.88,46a19,19,0,0,1,.33,3.33c.07,9.64-7.4,18.16-14.62,26.4-6.07,6.94-11.82,13.5-12.47,20l-.48,4.78-2.14-4.3a4.36,4.36,0,0,0-5.3-2.61c-2.95.7-5.32,3.36-5.3,5.09v.5l-.32.39a3.52,3.52,0,0,1-4.38.8c-.89-.7-2.48-1.76-4.65-3.22C239.56,88.41,209.11,68,209,50.48Zm91.84-1.14a17.11,17.11,0,0,0-.31-3.08c-3.56-18.45-34.93-56.65-45.2-37.5-13.65,25.46-35.82,16.59-44,36.85a12.56,12.56,0,0,0-.91,4.86c.14,19.77,42.75,44.83,47.52,48.69a2.16,2.16,0,0,0,2.62-.47h0c0-4.61,9.53-10.56,13.23-3.1,1.5-14.86,27.2-29.17,27.08-46.24m2.77,0c.07,10.16-7.57,18.89-14.95,27.32-5.93,6.77-11.53,13.17-12.14,19.21l-1,9.56-4.27-8.6a3,3,0,0,0-3.74-1.88c-2.31.55-4.25,2.68-4.24,3.74v1l-.65.78a4.89,4.89,0,0,1-6.13,1.1l-.19-.11-.17-.14c-.63-.51-2.28-1.62-4.37-3-13.18-8.86-44.06-29.6-44.18-47.8a15.38,15.38,0,0,1,1.11-5.92c4.38-10.79,12.57-14.24,20.48-17.58,8.38-3.52,17-7.17,23.67-19.54,2.7-5,7.08-7.34,12.36-6.54,15.3,2.33,35.16,30.05,38,44.82a19.69,19.69,0,0,1,.36,3.59ZM301,473.06a14,14,0,0,1-2.09,5.07c-6.15,9.21-14.2,10.8-22.73,12.48-9.15,1.8-18.61,3.66-27.93,14.81-3.3,3.94-7.4,5.15-11.88,3.49-13.77-5.1-27.44-35.93-27.25-50.27a18.25,18.25,0,0,1,.35-3.33c1.88-9.45,10.92-16.28,19.66-22.89,7.35-5.57,14.3-10.83,16.26-17.05l1.44-4.58,1.22,4.64a4.35,4.35,0,0,0,4.66,3.63c3-.09,5.89-2.21,6.23-3.91l.09-.49.39-.31a3.53,3.53,0,0,1,4.45.1c.74.87,2.07,2.23,3.9,4.09C278.71,429.73,304.38,455.93,301,473.06ZM210.8,455.58a16.41,16.41,0,0,0-.32,3.08c-.25,18.79,22.74,62.55,36.68,45.87,18.52-22.16,38.43-9,50.57-27.17a12.69,12.69,0,0,0,1.88-4.57c3.86-19.39-32.79-52.56-36.69-57.3a2.14,2.14,0,0,0-2.65-.07h0c-.91,4.53-11.47,8.42-13.59.37-4.48,14.24-32.54,23-35.88,39.79m-2.72-.54c2-10,11.24-17,20.18-23.73,7.18-5.43,14-10.56,15.78-16.35l2.88-9.17,2.44,9.29a3,3,0,0,0,3.28,2.6c2.38-.07,4.7-1.77,4.91-2.81l.2-1,.79-.63a4.89,4.89,0,0,1,6.23.17l.16.14.13.17c.52.63,1.91,2,3.67,3.84,11.12,11.34,37.16,37.91,33.6,55.76A15.64,15.64,0,0,1,300,478.9c-6.47,9.69-15.19,11.4-23.62,13.06-8.92,1.76-18.14,3.58-27.14,14.35-3.65,4.37-8.42,5.76-13.42,3.9-14.51-5.37-28.35-36.54-28.15-51.59a19.59,19.59,0,0,1,.37-3.58ZM483.6,213.62a13.85,13.85,0,0,1,4.66,2.87c8.1,7.56,8.36,15.77,8.65,24.45.3,9.32.61,19,10.11,30,3.36,3.89,3.89,8.13,1.53,12.28-7.26,12.77-39.89,21.28-54,18.79a19,19,0,0,1-3.23-.89c-9-3.38-14.31-13.4-19.42-23.09-4.31-8.16-8.38-15.87-14.2-18.8L413.4,257l4.78-.46a4.34,4.34,0,0,0,4.33-4c.4-3-1.23-6.16-2.85-6.77l-.47-.17-.25-.44a3.51,3.51,0,0,1,.83-4.37c1-.59,2.53-1.69,4.66-3.19C437.24,228.6,467.24,207.48,483.6,213.62Zm-31.8,86.16a17,17,0,0,0,3,.82c18.5,3.27,65.4-12.35,51.19-28.8-18.88-21.85-2.67-39.38-18.65-54.29a12.43,12.43,0,0,0-4.21-2.59c-18.51-6.95-57.17,23.87-62.47,27a2.14,2.14,0,0,0-.5,2.61h0c4.32,1.62,6.45,12.67-1.84,13.46,13.34,6.72,17.5,35.83,33.49,41.83m-1,2.6c-9.51-3.57-14.93-13.83-20.16-23.74-4.2-8-8.17-15.48-13.59-18.22l-8.59-4.32,9.57-.91a3,3,0,0,0,3.09-2.82c.31-2.35-1-4.92-2-5.29l-.95-.36-.5-.88a4.9,4.9,0,0,1,1.17-6.12l.17-.14.19-.1c.71-.42,2.33-1.56,4.38-3,13-9.14,43.41-30.55,60.45-24.15a15.54,15.54,0,0,1,5.13,3.16c8.51,8,8.8,16.83,9.08,25.41.3,9.09.6,18.48,9.78,29.1,3.72,4.31,4.32,9.24,1.69,13.88-7.65,13.45-40.65,22.08-55.46,19.46a20.14,20.14,0,0,1-3.48-.95Zm-401.53.23a13.89,13.89,0,0,1-5.37-1.05c-10.24-4.23-13.37-11.82-16.69-19.85-3.56-8.62-7.24-17.54-20-24.49-4.51-2.47-6.5-6.26-5.75-11,2.31-14.51,29.88-33.94,44-36.56a19,19,0,0,1,3.34-.31c9.64,0,18.1,7.53,26.29,14.8C82,230.31,88.51,236.1,95,236.79l4.78.52-4.32,2.11a4.37,4.37,0,0,0-2.65,5.28c.69,3,3.32,5.34,5,5.34h.51l.38.32a3.52,3.52,0,0,1,.77,4.38c-.71.9-1.78,2.47-3.25,4.63C87.43,272.31,66.77,302.61,49.29,302.61Zm-.49-91.84a16.13,16.13,0,0,0-3.08.29C27.24,214.49-11.18,245.6,7.9,256c25.36,13.83,16.34,35.93,36.54,44.28a12.55,12.55,0,0,0,4.85,1c19.77,0,45.14-42.44,49-47.18a2.14,2.14,0,0,0-.45-2.62h0c-4.62,0-10.5-9.6-3-13.26-14.84-1.6-29-27.4-46-27.4m0-2.77C59,208,67.63,215.7,76,223.14c6.73,6,13.09,11.63,19.13,12.28l9.55,1-8.63,4.22a3,3,0,0,0-1.9,3.72c.53,2.31,2.65,4.26,3.7,4.26h1l.77.66a4.89,4.89,0,0,1,1,6.14l-.11.18-.13.17c-.52.63-1.64,2.27-3.06,4.35C88.46,273.27,67.5,304,49.29,304a15.29,15.29,0,0,1-5.9-1.16c-10.77-4.45-14.16-12.66-17.44-20.6-3.46-8.4-7-17.09-19.38-23.81-5-2.72-7.29-7.13-6.45-12.4,2.44-15.28,30.3-34.95,45.09-37.7A19.65,19.65,0,0,1,48.8,208Zm85.29,236.91a14,14,0,0,1-5.18,1.79c-11,1.48-17.5-3.51-24.4-8.79-7.41-5.67-15.07-11.53-29.59-11.13-5.14.13-8.76-2.15-10.48-6.6-5.29-13.7,8.79-44.35,19.66-53.7a17.61,17.61,0,0,1,2.73-1.94c8.33-4.84,19.43-2.59,30.17-.41,9,1.83,17.58,3.56,23.54.91l4.39-2-2.68,4a4.35,4.35,0,0,0,.37,5.89c2.07,2.22,5.55,2.95,7,2.08l.43-.25.5.08a3.53,3.53,0,0,1,2.86,3.41c-.16,1.13-.3,3-.49,5.63C151.84,399.54,149.19,436.13,134.09,444.91ZM87.52,365.74A17.81,17.81,0,0,0,85,367.53C70.75,379.78,53.16,426,74.88,425.39c28.88-.78,32.17,22.86,53.84,19.94a12.74,12.74,0,0,0,4.67-1.62c17.09-9.93,17.71-59.37,18.69-65.42a2.15,2.15,0,0,0-1.71-2h0c-4,2.32-13.89-3-9.26-9.94-13.64,6.06-38.81-9.15-53.58-.57m-1.39-2.4c8.79-5.1,20.15-2.8,31.14-.57,8.82,1.79,17.16,3.47,22.71,1l8.78-3.9-5.35,8a3,3,0,0,0,.22,4.18c1.62,1.73,4.44,2.35,5.35,1.82l.88-.51,1,.18a4.89,4.89,0,0,1,4,4.78v.21l0,.22c-.13.81-.27,2.79-.45,5.29-1.15,15.84-3.83,52.94-19.58,62.09a15.43,15.43,0,0,1-5.69,2c-11.54,1.56-18.6-3.84-25.42-9.06C96.45,433.49,89,427.78,75,428.16c-5.7.16-9.89-2.5-11.81-7.48-5.58-14.44,8.64-45.44,20-55.25a20.88,20.88,0,0,1,2.94-2.09ZM445.2,379.51a14,14,0,0,1,1.88,5.14c1.68,11-3.2,17.56-8.35,24.55-5.54,7.51-11.27,15.27-10.62,29.79.23,5.13-2,8.79-6.41,10.59-13.61,5.53-44.5-8-54-18.71a18.75,18.75,0,0,1-2-2.7c-5-8.25-2.93-19.38-.95-30.16,1.68-9.07,3.26-17.64.5-23.55l-2-4.36,4,2.61a4.36,4.36,0,0,0,5.89-.47c2.18-2.11,2.85-5.6,1.95-7.08l-.26-.43.08-.5a3.51,3.51,0,0,1,3.35-2.92c1.13.14,3,.24,5.64.38C399.53,362.55,436.16,364.56,445.2,379.51Zm-78.34,47.94a16.83,16.83,0,0,0,1.84,2.49c12.5,14,59,30.82,58,9.11-1.29-28.86,22.29-32.57,19-54.18a12.42,12.42,0,0,0-1.7-4.64c-10.22-16.92-59.66-16.67-65.73-17.54a2.15,2.15,0,0,0-2,1.74h0c2.39,3.95-2.78,13.95-9.78,9.43,6.31,13.53-8.46,39,.37,53.58m-2.37,1.44c-5.26-8.7-3.15-20.1-1.12-31.13,1.63-8.85,3.17-17.21.61-22.72l-4.06-8.71,8.07,5.21a3,3,0,0,0,4.18-.3c1.7-1.65,2.27-4.47,1.72-5.37l-.52-.87.16-1a4.89,4.89,0,0,1,4.71-4.08h.21l.22,0c.81.11,2.79.22,5.3.36,15.86.87,53,2.9,62.42,18.48a15.47,15.47,0,0,1,2.06,5.66c1.77,11.51-3.51,18.66-8.61,25.57-5.39,7.32-11,14.88-10.34,28.9.25,5.69-2.33,9.93-7.28,11.94-14.34,5.83-45.58-7.84-55.59-19.07a20.08,20.08,0,0,1-2.14-2.9ZM69.59,133.73A13.89,13.89,0,0,1,68,128.5c-1.15-11,4-17.38,9.52-24.12,5.89-7.23,12-14.71,12-29.24,0-5.14,2.41-8.69,6.91-10.27C110.27,60,140.48,75,149.49,86.14a19.34,19.34,0,0,1,1.86,2.79c4.58,8.48,2,19.51-.5,30.17-2.11,9-4.1,17.47-1.63,23.5l1.82,4.45-3.91-2.79a4.35,4.35,0,0,0-5.9.18c-2.28,2-3.12,5.46-2.29,7l.23.44-.09.5a3.54,3.54,0,0,1-3.49,2.76c-1.13-.2-3-.39-5.62-.66C114.39,152.86,77.9,149.1,69.59,133.73Zm80.54-44.14A17.72,17.72,0,0,0,148.41,87C136.6,72.4,91,53.42,90.89,75.15c-.1,28.88-23.83,31.46-21.56,53.21a12.7,12.7,0,0,0,1.47,4.72c9.41,17.38,58.8,19.5,64.83,20.65a2.14,2.14,0,0,0,2.09-1.64h0c-2.2-4.06,3.44-13.8,10.22-9-5.66-13.82,10.31-38.52,2.19-53.54m2.43-1.32c4.84,8.94,2.19,20.23-.36,31.15-2.06,8.76-4,17-1.7,22.66l3.64,8.89-7.82-5.59a3,3,0,0,0-4.18.1c-1.78,1.57-2.49,4.36-2,5.29l.48.9-.21,1a4.88,4.88,0,0,1-4.9,3.84h-.21l-.21,0c-.81-.16-2.78-.36-5.28-.62-15.8-1.63-52.8-5.43-61.46-21.45a15.39,15.39,0,0,1-1.8-5.74c-1.21-11.59,4.4-18.48,9.83-25.14,5.74-7.05,11.67-14.33,11.71-28.37,0-5.7,2.81-9.81,7.84-11.58,14.6-5.13,45.16,10,54.61,21.71a19.82,19.82,0,0,1,2,3Z" transform="translate(0.05 -0.76)"/>
+  </svg>  
+</div>-->
+<section>
+  <div class="main-s">
+    <div class="row a-link">
+      <div class=" transition-a-link-l">
+          <div class="content-container">
+              <h2>Трішки про наш розсадник</h2>
+              <p>
+                  Найбільший розсадник рослин в Україні займає площу 42 гектара. Розсадник вирощує і реалізує широкий асортимент саджанців листяних та хвойних дерев і кущів з закритою кореневою системою. Ми гарантуємо високу якість продукції власного виробництва, адаптованої до нашого клімату.
+              </p>
+              <div class="charts">
+                  <div class="chart-container">
+                      <h3>17 Гектарів</h3>
+                      <div class="chart" id="chart-1"></div>
+                      <p>
+                          засаджено ялинками, туями то що
+                      </p>
+                  </div>
+                  <div class="chart-container">
+                      <h3>17 Гектарів</h3>
+                      <div class="chart" id="chart-2"></div>
+                      <p>
+                          засаджено ялинками, туями то що
+                      </p>
+                  </div>
+                  <div class="chart-container">
+                      <h3>17 Гектарів</h3>
+                      <div class="chart" id="chart-3"></div>
+                      <p>
+                          засаджено ялинками, туями то що
+                      </p>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <div class="col-md-6 transition-a-link-r"></div>
+    </div>
+    <div class="blink"></div>
+    <div class="cloud4"></div>
+    <div class="cloud5"></div>
+    <div class="cloud6"></div>
+    <div class="cloud7"></div>
+    <div class="cloud8"></div>
+    <div class="cloud9"></div>
+    <img class="ement-1 bounceInUp wow animated" data-wow-delay="2s" src="./imgg/nebo-1.png">
+    <img class="ement-2 bounceInLeft wow animated" data-wow-delay="2.2s" src="./imgg/nebo-2.png">
+    <img class="ement-3 bounceInDown wow animated" data-wow-delay="2.4s" src="./imgg/nebo-3.png">
+    <img class="ement-4 bounceInRight wow animated" data-wow-delay="2.6s" src="./imgg/nebo-4.png">
+    <img class="ement-5 bounceInLeft wow animated" data-wow-delay="1.5s" src="./imgg/city-1.png">
+    <img class="ement-6 bounceInUp wow animated" data-wow-delay="1s" src="./imgg/dvor-2.png">
+    <img class="ement-7 bounceInUp wow animated" data-wow-delay="0.5s" src="./imgg/left-lend-up.png">
+    <img class="ement-8" src="./imgg/dvor-1.png">
+    <img class="ement-9" src="./imgg/per-1.png">
+    <img class="ement-10" src="./imgg/per-1.png">
+    <img class="kenguru" id="kenguru"  src="./imgg/kenguru.png">
+    <div id="ellen"></div>
+    <img class="ement-11" src="./imgg/left-lend-down.png">
+    <img class="ement-12" src="./imgg/tab-1.png">
+    <img class="ement-13" src="./imgg/tree-1.png">
+    <img class="ement-14 bounceInRight wow animated" data-wow-delay="1.5s" src="./imgg/city-2.png">
+    <img class="ement-15 bounceInUp wow animated" data-wow-delay="0.5s" src="./imgg/right-lend-up.png">
+    <img class="ement-16" src="./imgg/right-lend-down.png">
+    <img class="ement-17" src="./imgg/dvor-3.png">
+    
+    <div class="voda">
+      <img class="ivoda" src="./imgg/voda-1.png">
+    </div>
+  </div>
+</section>
+<script src="./js/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="./js/wow.min.js"></script>
+    <script>
+     new WOW().init();
+</script>
+<script>
+  setTimeout(function() {
+    document.getElementById('wBlock').style.display = 'block';
+  }, 1000);
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TimelineMax.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script  src="./js/script.js"></script>
+<script>
+  // document.addEventListener('DOMContentLoaded', () => {
+  // const followCursor = () => {
+  // const el = document.querySelector('.follow-cursor')
+  // window.addEventListener('mousemove', e => {
+  //   const target = e.target
+  //   if (!target) return
+  //   if (target.closest('a')) {
+  //     el.classList.add('follow-cursor_active')
+  //   } else {
+  //     el.classList.remove('follow-cursor_active')
+  //   }
+  //   el.style.left = e.pageX + 'px'
+  //   el.style.top = e.pageY + 'px'
+  // })
+  // }
+  // followCursor()
+  // })
+</script>
+<script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const element = document.getElementById('kenguru');
+        if (element) {
+
+            element.style.position = 'absolute';
+            element.style.left = '0px';
+            let targetX = 0;
+            let direction = 'none';
+            let animationFrameId = null;
+            let animationTimer = 3000;
+            function updateDirection(newDirection) {
+
+                if (direction !== newDirection) {
+                    direction = newDirection;
+                    if (direction === 'right') {
+                        element.style.transform = 'scaleX(1)';
+                    } else if (direction === 'left') {
+                        element.style.transform = 'scaleX(-1)';
+                    }
+                }
+            }
+            function animate() {
+                const rect = element.getBoundingClientRect();
+                const centerX = rect.left + rect.width / 2;
+                const step = 3;
+                const tolerance = 1;
+                if (centerX < targetX - tolerance) {
+                    element.style.left = (parseFloat(element.style.left) + step) + 'px';
+                    updateDirection('right');
+                }
+
+                else if (centerX > targetX + tolerance) {
+                    element.style.left = (parseFloat(element.style.left) - step) + 'px';
+                    updateDirection('left');
+                }
+                else {
+                    direction = 'none';
+                    if (animationFrameId !== null) {
+                        cancelAnimationFrame(animationFrameId);
+                        animationFrameId = null;
+                    }
+                    return;
+                }
+                animationFrameId = requestAnimationFrame(animate);
+            }
+            function handleMouseMove(event) {
+                targetX = event.clientX - (element.offsetWidth / 2);
+                if (animationTimer) {
+                    clearTimeout(animationTimer);
+                }
+                animationTimer = setTimeout(() => {
+                    if (direction === 'none' && animationFrameId === null) {
+                        animate();
+                    }
+                }, 50);
+            }
+            document.addEventListener('mousemove', handleMouseMove);
+            setTimeout(animate, 3000);
+        }
+    });
+
+</script>
+<script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 5000);
+  }
+</script>
+<script>
+    var options = {
+        series: [85],
+        chart: {
+            height: 300,
+            type: 'radialBar',
+            toolbar: {
+                show: false
+            },
+            animations: {
+                enabled: true,
+                easing: 'easeinout', // Тип анімації: 'easein', 'easeout', 'easeinout', 'linear', тощо
+                speed: 2000,
+                animateGradually: {
+                    enabled: true,
+                    delay: 150 ,
+                },
+                dynamicAnimation: {
+                    enabled: true,
+                    speed: 350,
+                }
+            }
+        },
+        responsive: [{
+            breakpoint: 1920, // Визначаємо ширину екрана, при якій застосовуються налаштування
+            options: {
+                chart: {
+                    height: 200, // Зміна висоти графіка при ширині менше ніж 800px
+                }
+            }
+        }, {
+            breakpoint: 600,
+            options: {
+                chart: {
+                    height: 150, // Зміна висоти графіка при ширині менше ніж 600px
+                }
+            }
+        }],
+        plotOptions: {
+            radialBar: {
+                startAngle: -135,
+                endAngle: 225,
+                hollow: {
+                    margin: 0,
+                    size: '70%',
+                    background: 'none',
+                    image: undefined,
+                    imageOffsetX: 0,
+                    imageOffsetY: 0,
+                    position: 'front',
+                    dropShadow: {
+                        enabled: true,
+                        top: 3,
+                        left: 0,
+                        blur: 4,
+                        opacity: 0.24
+                    }
+                },
+                track: {
+                    background: '#fff',
+                    strokeWidth: '67%',
+                    margin: 0,
+                    dropShadow: {
+                        enabled: true,
+                        top: -3,
+                        left: 0,
+                        blur: 4,
+                        opacity: 0.35
+                    }
+                },
+                dataLabels: {
+                    show: true,
+                    name: {
+                        offsetY: -10,
+                        show: false,
+                        color: '#ffffff',
+                        fontSize: '17px'
+                    },
+                    value: {
+                        formatter: function(val) {
+                            return `${parseInt(val)}%`;
+                        },
+                        color: '#ffffff',
+                        fontSize: '36px',
+                        show: true,
+                    }
+                }
+            }
+        },
+        fill: {
+            type: 'gradient',
+            gradient: {
+                shade: 'light',
+                type: 'vertical',
+                shadeIntensity: 0.9,
+                gradientToColors: [ '#ffd700'], // Вказуємо кольори: білий і жовтий
+                inverseColors: false,
+                opacityFrom: 1,
+                opacityTo: 1,
+                stops: [0, 100] // Відсоткові значення градієнта: 0% білий, 100% жовтий
+            }
+        },
+        stroke: {
+            lineCap: 'round'
+        },
+        labels: ['Percent'],
+    };
+    var chart = new ApexCharts(document.querySelector("#chart-1"), options);
+    var chart2 = new ApexCharts(document.querySelector("#chart-2"), options);
+    var chart3 = new ApexCharts(document.querySelector("#chart-3"), options);
+
+    chart.render();
+    chart2.render();
+    chart3.render();
+</script>
+
+</body>
+</html>
